@@ -28,7 +28,7 @@
           <p>Aww yeah, Welcome to 25 Din me Paisa Double Bank.</p><hr>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQRPoZwQPOxTamOsQQgo2P4Fiw0xmuIfkoJw&usqp=CAU" class="img-fluid" alt="img-thumbnail">
         </div>
-    <form action="http://127.0.0.1:8000/View_all_Customers" method="post">
+    <form action="/View_all_Customers" method="post">
         {% csrf_token %}
         <button type="submit" formaction="/View_all_Customers" class="btn btn-dark">View all Customers</button>
         <button type="submit" formaction="/Transfer_Money" class="btn btn-dark">Transfer Money</button>

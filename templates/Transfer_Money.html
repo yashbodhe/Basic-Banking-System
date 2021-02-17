@@ -23,13 +23,13 @@
       </div>
     </nav>
     <dir class="container">
-    <form action="http://127.0.0.1:8000/View_all_Customers" method="post">
+    <form action="/View_all_Customers" method="post">
         {% csrf_token %}
         <button type="submit" formaction="/View_all_Customers" class="btn btn-dark">View all Customers</button>
         <button type="submit" formaction="/Transfer_Money" class="btn btn-dark">Transfer Money</button>
     </form>
     <br>
-    <form action="http://127.0.0.1:8000/Transaction_Result" method="post" class = 'card p-3 bg-light ' style="width: 35rem;">
+    <form action="/Transaction_Result" method="post" class = 'card p-3 bg-light ' style="width: 35rem;">
     	{% csrf_token %}
 		<h4>Transfer Details</h4><br>
 		<label for="senderName" class="form-label">Sender</label>

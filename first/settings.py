@@ -26,7 +26,7 @@ SECRET_KEY = 'kcru_+_*+xp*eh9gcis8t9c_^-18%2xo&l2fh6y0mun!znga1d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['anuradhabank.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['anuradhabank.herokuapp.com','anuradhabank.herokuapp.com/View_all_Customers', 'localhost', '127.0.0.1']
 
 
 # Application definition
